@@ -35,10 +35,13 @@ http://localhost:8080
 }
 ```
 
+### BPMNs
+BPMN files are located in the `SampleHttp/src/main/resources` directory.
+
 ### Endpoints
-- /SampleHttp1
+- /SampleHttp1 `[HttpStartEventProcess1.bpmn]`
     - Simple http endpoint that has no error handler.
-- /SampleHttp2
+- /SampleHttp2 `[HttpStartEventProcess2.bpmn]`
     - Simple http endpoint that has error handler.
-- /SampleHttp3
+- /SampleHttp3 `[HttpStartEventProcess3.bpmn]`
     - Same with /SampleHttp2 but with kafka producer.
